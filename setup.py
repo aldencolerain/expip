@@ -1,12 +1,6 @@
 # -*- coding: utf-8 -*-
-import sys
 from setuptools import setup, find_packages
 
-
-# keep this package private
-if set(sys.argv).intersection(['upload', 'register']):
-    print('This setup is private and should not be uploaded or registered.')
-    sys.exit(-1)
 
 # package settings
 setup(
