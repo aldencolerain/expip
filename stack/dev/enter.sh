@@ -18,4 +18,4 @@ if ! id "$1" > /dev/null 2>&1; then
     su $1 -c 'pip install --user -e /expip'
 fi
 
-source /etc/profile
+su $1
