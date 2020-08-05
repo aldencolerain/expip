@@ -19,8 +19,7 @@ setup(
     include_package_data=True,
 
     # public dependencies
-    install_requires=[
-        'pyyaml==5.3.1'],
+    install_requires=['pyyaml >= 5'],
 
     # keep this package private
     classifiers=['Private :: Do Not Upload'],
