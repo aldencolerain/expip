@@ -18,6 +18,7 @@ setup(
     url='https://github.com/aldencolerain/expip.git',
     description='Example pip package.',
     long_description=open('README.md').read(),
+    long_description_content_type="text/markdown",
 
     # include
     packages=find_packages(exclude=["tests"]),
